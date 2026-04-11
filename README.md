@@ -95,3 +95,18 @@ The dataset includes:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## ⚠️ Model Setup Instructions
+
+The trained model file is not included in this repository due to file size limitations.
+
+To run the Streamlit application properly, please follow these steps:
+
+1. Run the notebook file (`.ipynb`) to train the model  
+2. Save the trained model as `.pkl`  
+3. Download the generated model file  
+4. Place the model file inside the same folder as the Streamlit app (`app.py`)  
+
+Make sure the model file name matches the one used in the code (e.g., `best_model.pkl`).
+
+Without the model file, the prediction feature will not work.
